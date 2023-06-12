@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/b4ef9bbfd8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a class="tii" href="index.html">Filmy</a>
+        <div id="myNa" class="overla">
+        
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebt" onclick="closeNa()">&times;</a>
+        
+            <!-- Overlay content -->
+            <div class="overla-conten">
+                <a href="about2.html">About</a>
+                <a href="profile.html">profile</a>
+                <a href="about.html">privacy policy</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">login</a>
+                <a href="join.html">join</a>
+            </div>
+        
+        </div>
+        
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <span onclick="openNa()"><i class="fa-solid fa-bars togll"></i></span>
+        <script>function openNa()
+            {
+                document.getElementById("myNa").style.width = "100%";
+            }
+
+            /* Close when someone clicks on the "x" symbol inside the overlay */
+            function closeNa()
+            {
+                document.getElementById("myNa").style.width = "0%";
+            }</script>
+        <div class="l">
+            
+                        <div id="myNa" class="overla">
+                        
+                            <!-- Button to close the overlay navigation -->
+                            <a href="javascript:void(0)" class="closebt" onclick="closeNa()">&times;</a>
+                        
+                            <!-- Overlay content -->
+                            <div class="overla-conten">
+                                <a href="about2.html">About</a>
+                                <a href="profile.html">profile</a>
+                                <a href="contact.html">Contact</a>
+                                <a href="about.html">privacy policy</a>
+                                <a href="join.html">join</a>
+                                <a href="login.html">login</a>
+                            </div>
+                        
+                        </div>
+            <ul>
+                <li><a href="about2.html">About</a></li>
+                <li><a href="profile.html">profile</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="about.html">privacy policy</a></li>
+                <li><a href="join.html">join</a></li>
+                <li><a href="login.html">login</a></li>
+            </ul>
+        </div>
+        <form id="form" action="">
+            <input type="text" id="search" class="search" placeholder="search">
+        </form>
+    </header>
+    <div id="tags"></div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content" id="overlay-content"></div>
+
+<a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&rArr;</a>
+
+<a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow">&lArr;</a>
+
+    </div>
+    <span onclick="openNav()"></span>
+    <main id="main">
+        <div class="movie">
+            <img src="https://i.pinimg.com/564x/95/97/af/9597af38ceada400d5f830a1215af7f1.jpg" alt="image">
+            <div class="movie-info">
+                <h1>movie title</h1>
+                <span class="green">9.8</span>
+            </div>
+            <div class="overview">
+                <h3>overview</h3>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam eaque ab totam corrupti tempore corporis earum dolores, enim unde, pariatur labore odit eveniet possimus natus, a minus officiis temporibus deleniti!
+        
+            </div>
+        </div>
+                <div class="movie">
+                    <img src="https://i.pinimg.com/564x/37/9f/0e/379f0e3b07f7238d5bf2dad3fd1c1fc4.jpg" alt="image">
+                    <div class="movie-info">
+                        <h1>movie title</h1>
+                        <span class="green">9.8</span>
+                    </div>
+                    <div class="overview">
+                        <h3>overview</h3>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam eaque ab totam corrupti tempore corporis earum
+                        dolores, enim unde, pariatur labore odit eveniet possimus natus, a minus officiis temporibus deleniti!
+                
+                    </div>
+                </div>
+                                <div class="movie">
+                                    <img src="https://i.pinimg.com/564x/b3/36/04/b33604f6d64f1c6ff2c807556aeb6f34.jpg" alt="image">
+                                    <div class="movie-info">
+                                        <h1>e</h1>
+                                        <span class="green">9.8</span>
+                                    </div>
+                                    <div class="overview">
+                                        <h3>overview</h3>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam eaque ab totam corrupti tempore corporis earum
+                                        dolores, enim unde, pariatur labore odit eveniet possimus natus, a minus officiis temporibus deleniti!
+                                        
+                                    </div>
+                                    
+                                </div>
+                                
+    </main>
+    <div class="pagination">
+        <div class="page" id="prev">previous page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">next page</div>
+    </div>
+    <!--<script src="main.js"></script>
+    <script src="h.js"></script>-->
+    <footer>
+        <p>@copy right by <span>abdalrhman</span> 2023</p>
+    </footer>
+    <script src="nnn.js"></script>
+</body>
+</html>
